@@ -1,4 +1,4 @@
-type Todo @model @auth(rules: [{allow: public, provider: iam}])
+type Todo @model @auth(rules: [{allow: public, provider: identityPool}])
 {
   content: String
 }
